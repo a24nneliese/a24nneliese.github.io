@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#p-1 {
+    color:crimson;
+}
+#p-2 {
+    background-color: darkkhaki;
+}
+#s-1 {
+    color:green
+}
+#s-2 {
+    background-color:white
+}
