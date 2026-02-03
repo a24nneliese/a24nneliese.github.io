@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#paragraph-1 {
+    background-color: black;
+    color: azure;
+    font-size: xx-small;
+}
+
+#paragraph-1-1 {
+    background-color: rgb(67, 67, 67);
+    color: azure;
+    font-size: xx-small;
+}
+
+#paragraph-1-2 {
+    background-color: rgb(112, 112, 112);
+    color: azure);
+    font-size: x-small;
+}
+
+#paragraph-2 {
+    background-color: rgb(207, 206, 206);
+    color: rgb(109, 110, 110);
+    font-size: small;
+}
+
+#paragraph-2-1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(87, 87, 87);
+    font-size: medium;
+}
+
+#paragraph-2-2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(26, 26, 26);
+    font-size: large;
+}
+
+#paragraph-3 {
+    background-color: rgb(198, 198, 198);
+    color: rgb(30, 30, 30);
+    font-size: medium;
+}
+
+#paragraph-3-1 {
+    background-color: rgb(142, 142, 142);
+    color: rgb(63, 63, 63);
+    font-size: small;
+}
+
+#paragraph-3-2 {
+    background-color: black;
+    color: azure;
+    font-size: x-small;
+}

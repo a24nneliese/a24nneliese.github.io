@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#span-1 {
+    font-weight: bold;
+}
+
+#span-2 {
+    font-style: italic
+}
+
+#paragraph-1 {
+    font-size: 11px;
+}
+
+#paragraph-2 {
+    text-decoration: line-through;
+}
+
+#anchor-1 {
+    text-decoration: none;
+    color: darksalmon;
+    cursor: crosshair;
+}
+
+#paragraph-4 {
+    text-align: left;
+}
