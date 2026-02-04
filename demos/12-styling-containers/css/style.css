@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,4 +7,19 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+}
+
+#colored-text {
+    color: brown;
+}
+
+.shadowed {
+    background-color: lightgrey;
+    margin: 24px;
+    padding: 24px;
+    box-shadow: 4px 4px 14px slategrey;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
 }
