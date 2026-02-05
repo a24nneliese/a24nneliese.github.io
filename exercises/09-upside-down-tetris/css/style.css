@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#container {
+    background-color: blanchedalmond;
+    width: 500px;
+    min-height: 100vh;
+    font-size: 0px;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-block;
+}
+
+.red {
+    
+}
