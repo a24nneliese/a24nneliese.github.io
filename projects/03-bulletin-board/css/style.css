@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.banner {
+    background-color: beige;
+    margin: 50px;
+    padding: 5px;
+    text-align:center;
+    font-size: x-large;
+}
+.post-it1 {
+    background-color: #faedcb;
+    width: 400px;
+    display: inline-block;
+    margin: 50px;
+    padding: 50px;
+    text-align:center;
+    box-shadow: 4px 4px 4px black;
+}
+
+.post-it2 {
+    background-color: #f9d4b2;
+    width: auto;
+    display: inline-block;
+    margin: 70px;
+    object-fit: cover;
+    box-shadow: 4px 4px 4px black;
+}
+
+.post-it3 {
+    background-color: transparent;
+    width: auto;
+    display: inline-block;
+    margin: 70px;
+    object-fit: cover;
+    box-shadow: 4px 4px 4px black;
+}
