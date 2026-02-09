@@ -29,27 +29,32 @@ h2 {
 .post-it1 {
     background-color: #faedcb;
     width: 400px;
+    height: 400px;
     display: inline-block;
     margin: 50px;
-    padding: 50px;
+    padding: 100px;
     text-align:center;
     box-shadow: 4px 4px 4px black;
 }
 
 .post-it2 {
-    background-color: #f9d4b2;
-    width: auto;
+    background-color: #ffcbe1;
+    width: 400px;
+    height: 400px;
     display: inline-block;
-    margin: 70px;
-    object-fit: cover;
+    margin: 50px;
+    padding: 50px;
+    text-align:left;
     box-shadow: 4px 4px 4px black;
 }
 
 .post-it3 {
-    background-color: transparent;
-    width: auto;
+    background-color: #d6e5bd;
+    width: 400px;
+    height: 400px;
     display: inline-block;
-    margin: 70px;
-    object-fit: cover;
+    margin: 50px;
+    padding: 50px;
+    text-align:left;
     box-shadow: 4px 4px 4px black;
 }
