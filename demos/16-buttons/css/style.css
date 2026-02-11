@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.simple {
+    border: 3px solid black;
+    border-radius: 8px ;
+    margin: 24px;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.background {
+    background-color: darkgreen;
+    color: white;
+    padding: 24px 36px;
+    border-radius: 16px;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 24px;
+}
+
+.border {
+    color: darkgreen;
+    border: 3px solid darkgreen;
+    padding: 24px 36px;
+    border-radius: 16px;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 24px;
+}
+
+.same {
+    min-width: 300px;
+    text-align: center;
+}
+
+.wide {
+    display: block;
+    text-align: center;
+}
+
+#section-2 .background {
+    background-color: teal;
+}
+#section-2 .border {
+    color: teal;
+    border-color: teal;
+}
