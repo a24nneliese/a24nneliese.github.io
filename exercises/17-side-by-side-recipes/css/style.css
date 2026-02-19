@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -10,15 +12,19 @@ body {
 #single-column {
     max-width: 1200px;
     font-family: sans-serif;
-    margin: 0px auto;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    margin: 20px auto;
+    padding: 40px;
 }
 
 .side-by-side-container {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .side-by-side-container .image-container,
@@ -50,4 +56,32 @@ body {
     font-size: 12px;
     font-weight: bold;
     align-items: center;
+}
+
+#single-column2 {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 30px;
+}
+
+.card {
+    margin: 36px 0px;
+    padding: 36px;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 24px 0px 0px
+}
+
+#card-container {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
