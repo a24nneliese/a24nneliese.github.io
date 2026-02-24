@@ -19,6 +19,11 @@ h2 {
     font-family: "Montserrat", sans-serif;
 }
 
+hr {
+    color: black;
+    box-shadow: none;
+}
+
 .banner {
     background-color: beige;
     margin: 50px;
@@ -32,29 +37,31 @@ h2 {
     height: 400px;
     display: inline-block;
     margin: 50px;
-    padding: 100px;
+    padding: 50px;
     text-align:center;
     box-shadow: 4px 4px 4px black;
 }
 
 .post-it2 {
-    background-color: #ffcbe1;
+    background-color: #b8e6ff;
     width: 400px;
     height: 400px;
     display: inline-block;
     margin: 50px;
     padding: 50px;
-    text-align:left;
+    text-align:center;
     box-shadow: 4px 4px 4px black;
 }
 
 .post-it3 {
-    background-color: #d6e5bd;
+    background-color: #e2b6dc;
     width: 400px;
     height: 400px;
     display: inline-block;
     margin: 50px;
     padding: 50px;
-    text-align:left;
+    text-align:center;
     box-shadow: 4px 4px 4px black;
 }
+
+
