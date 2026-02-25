@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+/* column layout start */
+
+body {
+    margin: 0px;
+    font-family: montserrat, sans-serif;
+}
+
+.single-column {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+    background-color: #002244;
+}
+#single-column {
+    display: flex;
+    align-items: center;
+}
+
+.light-container {
+    background: linear-gradient(to left, #79c142b7,#c60c30);
+    padding: 48px 24px 50px;
+    color: #a5acaf;
+    text-align: center;
+}
+
+.single-column h1 {
+    font-size: 60px;
+    margin: 24px 0px 0px;
+    color: white;
+}
+
+.single-column h2 {
+    font-size: 40px;
+    margin: 24px 0px 0px;
+    color: white;
+}
+
+.single-column h3 {
+    font-size: 20px;
+    margin: 24px 0px 0px;
+    color: #a5acaf;
+}
+
+.single-column h4 {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+    color: #a5acaf;
+}
+
+.single-column h5 {
+    font-size: 14px;
+    margin: 24px 0px 0px;
+    color: #c60c31c5;
+}
+
+/* columns layout end*/
+
+/* card start */
+
+.card {
+    margin: 36px 0px;
+    padding: 36px;
+    text-align: center;
+    background-color: #a5acaf42;
+}
+
+.card2 {
+    margin: 36px 0px;
+    padding: 36px;
+    text-align: center;
+    background-color: #a5acaf42;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 24px 0px 0px;
+    color: #c60c30;
+}
+.card2 h3 {
+    font-size: 36px;
+    margin: 24px 0px 0px;
+    color: #7ac142;
+}
+
+#card-container {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+    padding-left: 85px;
+}
+
+/* card end */
+
+/* text starts */
+
+.text-container {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.text-container h1 {
+    font-size: 50px;
+}
+
+
+/* button start */
+
+.buttons {
+    display: inline-block;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+
+.yes {
+    border: 3px solid white;
+    border-radius: 8px ;
+    margin: 24px;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    text-decoration: none;
+}
+
+.no {
+    border: 3px solid white;
+    border-radius: 8px ;
+    margin: 24px;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    text-decoration: none;
+}
+
+/* button end */
+
+/* bottom text start */
+
+.bottom-text {
+    padding-bottom: 20px;
+}
