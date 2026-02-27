@@ -12,7 +12,7 @@ body {
     background-image: url(../images/hero2.jpeg);
     background-size: cover;
     background-position: center center;
-    height: 100vh;
+    height: 400px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -24,18 +24,19 @@ body {
 #side-hero .hero-content {
     font-size: 55px;
     background-color: rgb(134, 19, 19);
-    width: 1000px;
-    padding: 30px;
+    width: 400px;
+    height: 150px;
+    padding: 15px;
 }
 
 #side-hero .hero-content h1 {
     color: rgb(217, 255, 0);
-    font-size: 60pxpx;
+    font-size: 30px;
 }
 
 #side-hero .hero-content h3 {
     color: rgb(107, 111, 153);
-    font-size: 55px;
+    font-size: 20px;
 }
 
 .vertical-masonry-gallery {
@@ -48,4 +49,19 @@ body {
     width: 90%;
     margin-top: 0px;
     margin-bottom: 40px;
+}
+
+#nav {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+}
+
+#nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px;
 }
